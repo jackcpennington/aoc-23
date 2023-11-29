@@ -12,7 +12,7 @@ def main(day):
     print(cookie)
     
     headers = {'session': cookie}
-    url = "https://adventofcode.com/2022/day/" + day + "/input"
+    url = "https://adventofcode.com/2023/day/" + day + "/input"
 
     session = requests.Session()
     resp = session.get(url,cookies=headers)
